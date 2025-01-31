@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Nilesh",
+  lastName: "Bhujbal",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "UI/UX DESIGNER",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Asia/kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Marathi","Hindi"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -18,7 +18,7 @@ const newsletter = {
   description: (
     <>
       I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      creativity and user experience.
     </>
   ),
 };
@@ -27,14 +27,14 @@ const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
   {
-    name: "GitHub",
+    name: "Behance",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/nilesh-bhujbal-21827a20b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     name: "X",
@@ -44,7 +44,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:bhujbaln007@gmail.com",
   },
 ];
 
@@ -52,10 +52,10 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>UI/UX DESIGNER</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
+      I'm Nilesh, a design engineer at <InlineCode>xMonks</InlineCode>, where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
@@ -92,17 +92,22 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Xmonks",
+        timeframe: "July 2024 - Present",
+        role: "UI/UX Designer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            As a UI/UX Designer at xMonks, I create and design user-focused interfaces for web, mobile, and tablet
+platforms, with a primary focus on Android and iOS. My expertise lies in visual design disciplines such as
+typography, color theory, layout, and composition, ensuring alignment with the organization’s brand identity
+and standards.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            I utilize tools like Figma, Adobe XD, Protopie, Grok-2, DALL.E 2, etc. to create responsive designs, develop
+and maintain design systems, and collaborate with cross-functional teams to deliver high-quality outcomes.
+Additionally, I work closely with developers to ensure seamless implementation of designs. My key
+contributions include redesigning critical landing pages, integrating innovative design elements to enhance
+usability, and streamlining design workflows for improved efficiency and user engagement.
           </>,
         ],
         images: [
